@@ -24,8 +24,8 @@ Esse script vai otimizar os seguintes seguimentos no kernel.
 - Instalação das dependências necessárias para o troubleshooting
 
 ### 📥 INSTALAÇÃO 📥
-``` wget -c "" | bash ```
-
+``` git clone  ```
+``` ./script_otimizacao.sh ```
 
 ### ⚠️ ADVERTÊNCIA ⚠️
 Esse script so terá efeito caso seu PC use SSD, pra quem tem HDD no PC não terá efeito positivo nem negativo. Contudo é possível ainda otimizar o scheduler I/O que prioriza a ordem de operações e processos em andamento, reduz o tempo de espera.
