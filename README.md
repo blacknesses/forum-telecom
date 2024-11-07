@@ -4,8 +4,8 @@
 Repositório direcionado aos alunos Fórum-Telecom, neste repositório irei deixar algumas ferramentas que vão ajudar vocês com o EVE-NG e orientações de boas práticas dentro do ambiente emulado.
 
 Recomendação mínima de recursos pro EVE-NG<br>
-RAM: 4G<br>
-CPU: 2
+RAM: 4 GB<br>
+CPU: 2 core
 
 <br>
 
@@ -24,34 +24,39 @@ Esse script vai otimizar os seguintes seguimentos no kernel.
 - Instalação das dependências necessárias para o troubleshooting
 
 ### 📥 INSTALAÇÃO 📥
-```git clone https://github.com/blacknesses/forum-telecom.git ```  <br>
-```sudo chmod +x ./script_otimizacao.sh ```  <br>
-```./script_otimizacao.sh ```  <br>
-
-### ⚠️ ADVERTÊNCIA ⚠️
-Esse script so terá efeito caso seu PC use SSD, pra quem tem HDD no PC não terá efeito positivo nem negativo. Contudo é possível ainda otimizar o scheduler I/O que prioriza a ordem de operações e processos em andamento, reduz o tempo de espera.
-Copie e cole no EVE-NG o comando abaixo.<br>
-```echo 'deadline' | sudo tee /sys/block/sdX/queue/scheduler```
-
-
-
-
+```sh
+git clone https://github.com/blacknesses/forum-telecom.git
+```
+```sh
+sudo chmod +x ./script_otimizacao.sh
+``` 
+```sh
+./script_otimizacao.sh
+```
 ### 🕵 DICAS DE TROUBLESHOOTING 🕵
 Independente do problema que ocorra temos que partir do inicio e entender o "porque" aquilo esta acontecendo... <br>
 
 1 - SYSLOG <br>
 Execute <br>
-``` sudo tail -f /var/log/syslog``` <br>
+```sh
+ sudo tail -f /var/log/syslog
+```
 Procure evidências e busque entender o que está ocorrendo ou ocasionando o problema. 
 
 2 - HARDWARE <br>
 Use uma das opções abaixo para monitorar o hardware do ambiente. <br>
-``` watch free -m``` <br>
-``` htop``` <br>
+```sh
+watch free -m
+```
+```sh
+ htop
+```
 
 3 - TESTES BÁSICOS <br>
 Básico de tudo, teste o ping pro gateway, pro host e pro google, você pode usar o mtr que junta ping+traceroute. <br>
-``` mtr x.x.x.x``` <br>
+```sh
+ mtr x.x.x.x
+```
 
 4 - EVE-NG <br>
 Use os recursos de monitoramento que o EVE-NG fornece pra auxiliar no troubleshooting  <br>
