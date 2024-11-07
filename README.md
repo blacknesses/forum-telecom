@@ -24,7 +24,7 @@ Esse script vai otimizar os seguintes seguimentos no kernel.
 - Instalação das dependências necessárias para o troubleshooting
 
 ### 📥 INSTALAÇÃO 📥
-``` git clone  ``` <br>
+``` git clone https://github.com/blacknesses/forum-telecom.git``` <br>
 ``` ./script_otimizacao.sh ``` 
 
 ### ⚠️ ADVERTÊNCIA ⚠️
