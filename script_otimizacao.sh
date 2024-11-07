@@ -3,6 +3,9 @@
 # ATUALIZA KERNEL E GERENCIADOS DE PACOTES
 sudo apt-get update ; sudo apt-get full-upgrade -y ; sudo apt install -f -y ; sudo dpkg --configure -a ; sudo apt clean -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt remove -f -y && sudo apt-get -u dist-upgrade -y && sudo updatedb"
 
+# INSTALANDO DEPENDÊNCIAS
+sudo apt-get install -y mtr syslog
+
 # OTIMIZAÇÃO DA SWAP
 sudo fallocate -l 1G /swapfile
 sudo chmod 600 /swapfile
