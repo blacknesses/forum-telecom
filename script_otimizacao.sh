@@ -45,5 +45,5 @@ sudo update-grub
 if sudo fstrim -v / &> /dev/null; then
     echo "Trim realizado com sucesso."
 else
-    echo "Trim não suportado nesta unidade."
+    echo "Configuração de 'trim' não suportado nesta unidade."
 fi
