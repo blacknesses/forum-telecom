@@ -37,7 +37,7 @@ Copie e cole no EVE-NG o comando abaixo.<br>
 
 
 ### 🕵 DICAS DE TROUBLESHOOTING 🕵
-Independete do problema que ocorra temos que partir do inicio e entender o "porque" aquilo esta acontecendo<br>
+Independente do problema que ocorra temos que partir do inicio e entender o "porque" aquilo esta acontecendo... <br>
 
 1 - SYSLOG <br>
 Execute <br>
