@@ -24,8 +24,9 @@ Esse script vai otimizar os seguintes seguimentos no kernel.
 - Instalação das dependências necessárias para o troubleshooting
 
 ### 📥 INSTALAÇÃO 📥
-``` git clone https://github.com/blacknesses/forum-telecom.git``` <br>
-``` ./script_otimizacao.sh ``` 
+```git clone https://github.com/blacknesses/forum-telecom.git ```  <br>
+```sudo chmod +x ./script_otimizacao.sh ```  <br>
+```./script_otimizacao.sh ```  <br>
 
 ### ⚠️ ADVERTÊNCIA ⚠️
 Esse script so terá efeito caso seu PC use SSD, pra quem tem HDD no PC não terá efeito positivo nem negativo. Contudo é possível ainda otimizar o scheduler I/O que prioriza a ordem de operações e processos em andamento, reduz o tempo de espera.
