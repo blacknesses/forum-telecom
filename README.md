@@ -3,7 +3,7 @@
 
 Repositório direcionado aos alunos Fórum-Telecom, neste repositório irei deixar algumas ferramentas que vão ajudar vocês com o EVE-NG e orientações de boas práticas dentro do ambiente emulado.
 
-Recomendção mínima de recursos pro EVE-NG<br>
+Recomendação mínima de recursos pro EVE-NG<br>
 RAM: 4G<br>
 CPU: 2
 
