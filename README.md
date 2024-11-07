@@ -62,3 +62,7 @@ Básico de tudo, teste o ping pro gateway, pro host e pro google, você pode usa
 Use os recursos de monitoramento que o EVE-NG fornece pra auxiliar no troubleshooting  <br>
 ![image](https://github.com/user-attachments/assets/9418d666-068f-4693-a7f0-31f93db7fb3d)
 ![teste](https://github.com/blacknesses/forum-telecom/blob/main/resources.png?raw=true)
+
+### 🔰 SHIELDS 🔰
+![](https://img.shields.io/github/license/blacknesses/forum-telecom)
+![](https://img.shields.io/github/languages/top/blacknesses/forum-telecom)
