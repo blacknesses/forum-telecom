@@ -3,7 +3,7 @@
 
 Repositório direcionado aos alunos Fórum-Telecom, neste repositório irei deixar algumas ferramentas que vão ajudar vocês com o EVE-NG e orientações de boas práticas dentro do ambiente emulado. <br>
 
-Desenvolvam noção básica de infraestrutura, vocês estão lidando com recursos de hardware virtualizados saibam segmentar e fazer bom uso do mesmo ou terão problemas de gargalos de memória e processamento ocasionando travamentos e desconexões no laboratório de vocês
+Desenvolvam noção básica de infraestrutura, vocês estão lidando com recursos de hardware virtualizados saibam segmentar e fazer bom uso do mesmo ou terão problemas de gargalos de memória e processamento ocasionando travamentos e desconexões no laboratório de vocês<br>
 
 Recomendação mínima de recursos pro EVE-NG<br>
 RAM: 4 GB<br>
