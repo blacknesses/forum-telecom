@@ -30,11 +30,9 @@ Esse script vai otimizar os seguintes seguimentos no kernel.
 git clone https://github.com/blacknesses/forum-telecom.git
 ```
 ```sh
-sudo chmod +x ./script_otimizacao.sh
+cd forum-telecom; sudo chmod +x ./script_otimizacao.sh; ./script_otimizacao.sh
 ``` 
-```sh
-./script_otimizacao.sh
-```
+
 ### 🕵 DICAS DE TROUBLESHOOTING 🕵
 Independente do problema que ocorra temos que partir do inicio e entender o "porque" aquilo esta acontecendo... <br>
 
