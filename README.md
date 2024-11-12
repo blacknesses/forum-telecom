@@ -13,7 +13,13 @@ CPU: 2 core
 
 ________________________________________
 
-
+### 📥 INSTALAÇÃO 📥
+```sh
+git clone https://github.com/blacknesses/forum-telecom.git
+```
+```sh
+cd forum-telecom; sudo chmod +x ./script_otimizacao.sh; ./script_otimizacao.sh
+``` 
 
 ### ⚙️ SCRIPT DE OTIMIZAÇÃO DO KERNEL EVE-NG ⚙️
 Esse script vai otimizar os seguintes seguimentos no kernel.
@@ -24,14 +30,6 @@ Esse script vai otimizar os seguintes seguimentos no kernel.
 - Redução de ruídos gráficos e erros no apache
 - Otimização de disco
 - Instalação das dependências necessárias para o troubleshooting
-
-### 📥 INSTALAÇÃO 📥
-```sh
-git clone https://github.com/blacknesses/forum-telecom.git
-```
-```sh
-cd forum-telecom; sudo chmod +x ./script_otimizacao.sh; ./script_otimizacao.sh
-``` 
 
 ### 🕵 DICAS DE TROUBLESHOOTING 🕵
 Independente do problema que ocorra temos que partir do inicio e entender o "porque" aquilo esta acontecendo... <br>
